@@ -2,7 +2,7 @@ echo "Hola, esto es un adivinador de numeros"
 echo "La maquina generara un numero aleatorio del 1 al 50 y vos tenes que adivinarlo"
 
 aleatorio=$(( $RANDOM % 50 + 1 ))
-contador=0
+contador=1
 intento=10
 
 while [ $contador -le $intento ];
